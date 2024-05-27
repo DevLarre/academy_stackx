@@ -1,0 +1,32 @@
+.trainers {
+    padding: 0.5rem;
+    margin: 20px 600px 50px 600px;
+  }
+  
+  .trainers ul li {
+    list-style: none;
+  }
+
+  .trainer-pair {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  
+  .trainer {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 0rem;
+    border-radius: 5px;
+  }
+
+  .trainers .trainer p {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .trainer img {
+    width: 250px;
+    height: 300px;
+    border-radius: 99px;
+  }

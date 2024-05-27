@@ -1,0 +1,12 @@
+.home {
+    padding: 2rem;
+  }
+  
+  .home img {
+    width: 50%; /* Garante que a imagem ocupe toda a largura da parte branca */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Redimensiona a imagem para cobrir todo o espaço disponível */
+    object-position: center; /* Centraliza a imagem dentro do espaço disponível */
+    border-radius: 99px;
+  }
+  

@@ -1,0 +1,12 @@
+.about {
+    padding: 2rem;
+  }
+
+  .about img {
+    width: 45%; /* Garante que a imagem ocupe toda a largura da parte branca */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Redimensiona a imagem para cobrir todo o espaço disponível */
+    object-position: center;
+    border-radius: 99px;
+  }
+  
