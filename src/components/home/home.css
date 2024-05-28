@@ -3,10 +3,21 @@
   }
   
   .home img {
-    width: 50%; /* Garante que a imagem ocupe toda a largura da parte branca */
-    height: auto; /* Mantém a proporção da imagem */
-    object-fit: cover; /* Redimensiona a imagem para cobrir todo o espaço disponível */
-    object-position: center; /* Centraliza a imagem dentro do espaço disponível */
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
     border-radius: 99px;
   }
   
+  /* Estilos para telas menores (até 768px) */
+@media only screen and (max-width: 768px) {
+  .home {
+    text-align: center;
+  }
+
+  .home img {
+    width: 100%;
+    border-radius: 39px;
+  }
+}

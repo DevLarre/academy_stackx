@@ -30,3 +30,30 @@
     height: 300px;
     border-radius: 99px;
   }
+
+  @media only screen and (max-width: 768px) {
+    .trainers {
+      margin: 20px; 
+    }
+  
+    .trainer-pair {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .trainer {
+      margin-bottom: 20px; 
+      text-align: center; 
+    }
+  
+    .trainer img {
+      width: 100%;
+      height: auto;
+      border-radius: 39px;
+    }
+  
+    .trainer p {
+      font-size: 1.2rem;
+    }
+  }

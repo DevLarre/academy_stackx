@@ -8,3 +8,11 @@ footer {
     text-align: center;
   }
   
+  /* Estilos para telas menores (até 768px) */
+@media only screen and (max-width: 768px) {
+  .footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona padding para separar do conteúdo acima */
+    position: relative;
+  }
+}

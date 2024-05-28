@@ -84,3 +84,32 @@ h1 {
     object-fit: cover;
     object-position: center;
 }
+
+/* Estilos para telas menores (até 768px) */
+@media only screen and (max-width: 768px) {
+    .classes {
+        margin: 20px 0px 100px 0px; 
+      }
+    
+      .class-pair {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+      }
+    
+      .trainer {
+        margin-bottom: 20px; 
+        text-align: center; 
+      }
+    
+      .classes img {
+        width: 303px;
+        height: 202px;
+        border-radius: 39px;
+      }
+    
+      .classes p {
+        font-size: 1.2rem;
+    }
+}
+  
